@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Converge — Software that brings people closer together</title>
+  <meta name="description" content="Converge builds software that helps teams design, ship and scale products connecting people around the world." />
+  <meta property="og:title" content="Converge — Software that brings people closer together" />
+  <meta property="og:description" content="Tools for building connected products at global scale." />
+  <meta property="og:type" content="website" />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <script>document.documentElement.classList.add("js");</script>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" id="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#" aria-label="Converge home">
+        <svg class="brand__mark" viewBox="0 0 32 32" aria-hidden="true">
+          <defs>
+            <linearGradient id="brandGradient" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0%" stop-color="#37a4ff" />
+              <stop offset="100%" stop-color="#6b5cff" />
+            </linearGradient>
+          </defs>
+          <circle cx="16" cy="16" r="15" fill="url(#brandGradient)" />
+          <path d="M21.5 10.5a8 8 0 1 0 0 11" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" />
+        </svg>
+        <span class="brand__name">Converge</span>
+      </a>
+
+      <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="site-nav">
+        <span class="nav-toggle__bar"></span>
+        <span class="nav-toggle__bar"></span>
+        <span class="nav-toggle__bar"></span>
+        <span class="visually-hidden">Toggle navigation</span>
+      </button>
+
+      <nav class="site-nav" id="site-nav" aria-label="Primary">
+        <ul class="site-nav__list">
+          <li><a href="#products">Our technologies</a></li>
+          <li><a href="#mission">Why Converge</a></li>
+          <li><a href="#news">News</a></li>
+          <li><a href="#about">About us</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <a class="btn btn--primary btn--small" href="#contact">Get started</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="container hero__inner">
+        <div class="hero__copy" data-reveal>
+          <p class="eyebrow">Software for a more connected world</p>
+          <h1>Build software that brings people closer together.</h1>
+          <p class="hero__lede">
+            Converge gives teams the tools to design, ship and scale products that connect
+            people — securely, openly and at global scale.
+          </p>
+          <div class="hero__actions">
+            <a class="btn btn--primary" href="#products">Explore our technologies</a>
+            <a class="btn btn--ghost" href="#mission">Read our story</a>
+          </div>
+          <p class="hero__note">Trusted by 40,000+ teams in 180 countries.</p>
+        </div>
+
+        <div class="hero__visual" data-reveal aria-hidden="true">
+          <div class="orb orb--one"></div>
+          <div class="orb orb--two"></div>
+          <div class="app-card">
+            <div class="app-card__top">
+              <span class="app-card__dots"><i></i><i></i><i></i></span>
+              <span class="app-card__title">Pulse · Overview</span>
+            </div>
+            <div class="app-card__metric">
+              <div>
+                <span class="app-card__label">Community activity</span>
+                <strong>+28.4%</strong>
+              </div>
+              <span class="app-card__badge">Live</span>
+            </div>
+            <svg class="sparkline" viewBox="0 0 320 110" preserveAspectRatio="none">
+              <defs>
+                <linearGradient id="sparkFill" x1="0" y1="0" x2="0" y2="1">
+                  <stop offset="0%" stop-color="#0866ff" stop-opacity="0.28" />
+                  <stop offset="100%" stop-color="#0866ff" stop-opacity="0" />
+                </linearGradient>
+              </defs>
+              <path class="sparkline__area" d="M0 92 L28 84 L56 88 L84 68 L112 74 L140 52 L168 60 L196 38 L224 46 L252 26 L280 32 L320 10 L320 110 L0 110 Z" fill="url(#sparkFill)" />
+              <path class="sparkline__line" d="M0 92 L28 84 L56 88 L84 68 L112 74 L140 52 L168 60 L196 38 L224 46 L252 26 L280 32 L320 10" fill="none" stroke="#0866ff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+            <div class="app-card__rows">
+              <div class="app-card__row">
+                <span class="app-card__avatar app-card__avatar--a"></span>
+                <span class="app-card__line app-card__line--long"></span>
+                <span class="app-card__pill">Shipped</span>
+              </div>
+              <div class="app-card__row">
+                <span class="app-card__avatar app-card__avatar--b"></span>
+                <span class="app-card__line"></span>
+                <span class="app-card__pill app-card__pill--soft">Review</span>
+              </div>
+            </div>
+          </div>
+          <div class="floating-chip floating-chip--one">99.99% uptime</div>
+          <div class="floating-chip floating-chip--two">2.4M members</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="mission" id="mission">
+      <div class="container mission__inner">
+        <p class="eyebrow eyebrow--light" data-reveal>Our mission</p>
+        <h2 class="mission__statement" data-reveal>
+          Give people the power to build software and bring the world closer together.
+        </h2>
+        <p class="mission__lede" data-reveal>
+          We believe technology is at its best when it helps people understand each other.
+          That's why we build open, dependable tools that put connection first — for teams,
+          for communities and for the people they serve.
+        </p>
+        <div class="stats" data-reveal>
+          <div class="stat">
+            <strong>40k+</strong>
+            <span>Teams building on Converge</span>
+          </div>
+          <div class="stat">
+            <strong>180</strong>
+            <span>Countries served</span>
+          </div>
+          <div class="stat">
+            <strong>99.99%</strong>
+            <span>Platform uptime</span>
+          </div>
+          <div class="stat">
+            <strong>12B</strong>
+            <span>API calls every day</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="products" id="products">
+      <div class="container">
+        <div class="section-head">
+          <div data-reveal>
+            <p class="eyebrow">Our technologies</p>
+            <h2>Tools that help people build, connect and grow.</h2>
+          </div>
+          <p class="section-head__lede" data-reveal>
+            One platform, four products. Each one is powerful on its own and better together.
+          </p>
+        </div>
+
+        <div class="product-grid">
+          <article class="product-card product-card--cloud" data-reveal>
+            <div class="product-card__icon">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M7 18a4 4 0 0 1-.6-7.96A6 6 0 0 1 18 9.5a4.5 4.5 0 0 1-.5 8.5H7Z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round" />
+              </svg>
+            </div>
+            <h3>Converge Cloud</h3>
+            <p>A secure home for your product, data and users. Deploy in minutes and scale to millions without thinking about infrastructure.</p>
+            <a class="link-arrow" href="#contact">Learn more <span aria-hidden="true">→</span></a>
+          </article>
+
+          <article class="product-card product-card--pulse" data-reveal>
+            <div class="product-card__icon">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M5 5h14a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-7l-4.5 3.2A.6.6 0 0 1 6.5 19.7V17H5a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2Z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round" />
+              </svg>
+            </div>
+            <h3>Pulse</h3>
+            <p>Team messaging that keeps projects moving, with channels, threads and shared context that stays where the work happens.</p>
+            <a class="link-arrow" href="#contact">Learn more <span aria-hidden="true">→</span></a>
+          </article>
+
+          <article class="product-card product-card--relay" data-reveal>
+            <div class="product-card__icon">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M9.5 14.5 5.8 18.2a3.5 3.5 0 0 1-5-5l3.7-3.7M14.5 9.5l3.7-3.7a3.5 3.5 0 0 1 5 5l-3.7 3.7M8 16l8-8" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" transform="translate(1 1)" />
+              </svg>
+            </div>
+            <h3>Relay</h3>
+            <p>APIs and event streams that connect your services without the glue code, so data moves exactly when it should.</p>
+            <a class="link-arrow" href="#contact">Learn more <span aria-hidden="true">→</span></a>
+          </article>
+
+          <article class="product-card product-card--studio" data-reveal>
+            <div class="product-card__icon">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <rect x="3" y="3" width="18" height="18" rx="3" fill="none" stroke="currentColor" stroke-width="1.7" />
+                <path d="M3 9h18M9 21V9" fill="none" stroke="currentColor" stroke-width="1.7" />
+              </svg>
+            </div>
+            <h3>Studio</h3>
+            <p>A visual builder for internal tools, prototypes and customer experiences that ship straight to production.</p>
+            <a class="link-arrow" href="#contact">Learn more <span aria-hidden="true">→</span></a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="container about__inner">
+        <div data-reveal>
+          <p class="eyebrow">About us</p>
+          <h2>Built by people who believe connection is progress.</h2>
+        </div>
+        <div class="about__copy" data-reveal>
+          <p>
+            Founded in 2018, Converge is an independent software company with a simple
+            conviction: the products people use every day should make the world feel
+            smaller, not noisier.
+          </p>
+          <p>
+            We're a distributed team of engineers, designers and researchers working
+            across 14 countries. We build in the open, ship carefully and measure
+            success by what our customers are able to create.
+          </p>
+          <a class="link-arrow" href="#contact">Meet the team <span aria-hidden="true">→</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="news" id="news">
+      <div class="container">
+        <div class="section-head">
+          <div data-reveal>
+            <p class="eyebrow">News</p>
+            <h2>The latest from Converge.</h2>
+          </div>
+          <a class="link-arrow section-head__link" href="#news" data-reveal>View all news <span aria-hidden="true">→</span></a>
+        </div>
+
+        <div class="news-grid">
+          <article class="news-card" data-reveal>
+            <div class="news-card__media news-card__media--blue">
+              <span>Product</span>
+            </div>
+            <div class="news-card__body">
+              <p class="news-card__meta">October 12, 2026 · 4 min read</p>
+              <h3>Converge opens its European data region</h3>
+              <p>Local hosting, data residency controls and a new Frankfurt point of presence for teams in the EU.</p>
+            </div>
+          </article>
+
+          <article class="news-card" data-reveal>
+            <div class="news-card__media news-card__media--violet">
+              <span>Engineering</span>
+            </div>
+            <div class="news-card__body">
+              <p class="news-card__meta">September 28, 2026 · 6 min read</p>
+              <h3>Pulse 4.0 brings shared timelines to every channel</h3>
+              <p>A faster feed, richer threads and a new way to see the story of a project at a glance.</p>
+            </div>
+          </article>
+
+          <article class="news-card" data-reveal>
+            <div class="news-card__media news-card__media--green">
+              <span>Culture</span>
+            </div>
+            <div class="news-card__body">
+              <p class="news-card__meta">September 9, 2026 · 5 min read</p>
+              <h3>How our teams are building for accessibility</h3>
+              <p>The process, tooling and hard lessons behind making Converge work for everyone.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta" id="contact">
+      <div class="container cta__inner" data-reveal>
+        <div>
+          <h2>Ready to build something people love?</h2>
+          <p>Start free with Converge Cloud. No credit card, no sales call, no lock-in.</p>
+        </div>
+        <div class="cta__actions">
+          <a class="btn btn--light" href="#">Create an account</a>
+          <a class="btn btn--outline-light" href="#">Talk to us</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <a class="brand brand--footer" href="#" aria-label="Converge home">
+          <svg class="brand__mark" viewBox="0 0 32 32" aria-hidden="true">
+            <circle cx="16" cy="16" r="15" fill="url(#brandGradient)" />
+            <path d="M21.5 10.5a8 8 0 1 0 0 11" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" />
+          </svg>
+          <span class="brand__name">Converge</span>
+        </a>
+        <p class="footer__tagline">Software that brings people closer together.</p>
+      </div>
+
+      <nav class="footer__columns" aria-label="Footer">
+        <div class="footer__column">
+          <h3>Products</h3>
+          <ul>
+            <li><a href="#products">Converge Cloud</a></li>
+            <li><a href="#products">Pulse</a></li>
+            <li><a href="#products">Relay</a></li>
+            <li><a href="#products">Studio</a></li>
+          </ul>
+        </div>
+        <div class="footer__column">
+          <h3>Company</h3>
+          <ul>
+            <li><a href="#about">About us</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#contact">Careers</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer__column">
+          <h3>Resources</h3>
+          <ul>
+            <li><a href="#products">Documentation</a></li>
+            <li><a href="#products">Status</a></li>
+            <li><a href="#products">Security</a></li>
+            <li><a href="#products">Developers</a></li>
+          </ul>
+        </div>
+        <div class="footer__column">
+          <h3>Legal</h3>
+          <ul>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Cookies</a></li>
+            <li><a href="#">Accessibility</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <div class="container footer__bottom">
+      <p>© <span id="year">2026</span> Converge, Inc. All rights reserved.</p>
+      <ul class="footer__social" aria-label="Social links">
+        <li>
+          <a href="#" aria-label="Converge on GitHub">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.45-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.61.07-.61 1 .07 1.53 1.03 1.53 1.03.9 1.53 2.36 1.09 2.93.83.09-.65.35-1.09.63-1.34-2.22-.25-4.56-1.11-4.56-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.64 0 0 .84-.27 2.75 1.02a9.5 9.5 0 0 1 5 0c1.91-1.29 2.75-1.02 2.75-1.02.55 1.37.2 2.39.1 2.64.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.69-4.57 4.94.36.31.68.92.68 1.86V21c0 .27.18.58.69.48A10 10 0 0 0 12 2Z" fill="currentColor" />
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a href="#" aria-label="Converge on LinkedIn">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M6.94 8.5H3.56V21h3.38V8.5ZM5.25 3a1.96 1.96 0 1 0 0 3.92 1.96 1.96 0 0 0 0-3.92ZM21 13.9c0-3.4-1.81-4.98-4.23-4.98a3.65 3.65 0 0 0-3.31 1.82h-.05V8.5H10.2V21h3.38v-6.2c0-1.63.31-3.21 2.33-3.21 1.99 0 2.02 1.86 2.02 3.31V21H21v-7.1Z" fill="currentColor" />
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a href="#" aria-label="Converge on X">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M17.7 3h3.2l-7 8 8.2 10h-6.4l-5-6.1L4.9 21H1.7l7.5-8.6L1.3 3h6.6l4.5 5.6L17.7 3Zm-1.1 16h1.8L7.4 4.8H5.5L16.6 19Z" fill="currentColor" />
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+</body>
+</html>
